@@ -17,7 +17,7 @@ public class GameOver : MonoBehaviour
         Time.timeScale = 0;
     }
 
-    public void LoadScene()
+    public void PlayAgain()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         gameObject.SetActive(false);
